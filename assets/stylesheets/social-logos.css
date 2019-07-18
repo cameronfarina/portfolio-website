@@ -6,6 +6,14 @@
   left: 40px;
   color: rgb(168, 178, 209);
 }
+.email-container {
+  display: block;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 40px;
+  color: rgb(168, 178, 209);
+}
 
 .social-list {
   display: flex;
@@ -29,7 +37,17 @@
 .social-list img {
   padding: 10px;
 }
+
 .social-container::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: rgb(168, 178, 209);
+  margin: 0px auto;
+}
+
+.email-container::after {
   content: "";
   display: block;
   width: 1px;
@@ -49,4 +67,12 @@
   fill: rgb(255, 100, 137);
   transition: 0.5s;
   transform: translate3d(0px, -7px, 0px);
+}
+
+.email-link {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  writing-mode: vertical-rl;
+  margin: 15px auto;
+  padding: 10px;
 }
