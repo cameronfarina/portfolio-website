@@ -40,7 +40,11 @@
 
 .social-icons {
   padding: 9px 0;
+  fill: rgb(168, 178, 209);
 }
 .social-list-items:last-child {
   margin-bottom: 15px;
+}
+.social-icons:hover {
+  fill: rgb(255, 100, 137)
 }
