@@ -1,10 +1,18 @@
 @media screen and (max-width: 700px) {
-  .social-container {
+  .social-container,
+  .masthead {
     display: none;
   }
 
+
 }
 
-/* @media screen and (max-width: 1200px) and (min-width: 701px) {
-
-} */
+@media screen and (min-width: 701px) {
+  .main-div {
+    margin-left: 50px;
+  }
+  .menu-wrap,
+  .showcase {
+    display:none;
+  }
+}

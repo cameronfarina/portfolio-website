@@ -46,5 +46,7 @@
   margin-bottom: 15px;
 }
 .social-icons:hover {
-  fill: rgb(255, 100, 137)
+  fill: rgb(255, 100, 137);
+  transition: 0.5s;
+  transform: translate3d(0px, -7px, 0px);
 }

@@ -6,21 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./assets/stylesheets/reset.css" />
     <link rel="stylesheet" href="./assets/stylesheets/index.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/hamburger-nav.css" />
     <link rel="stylesheet" href="./assets/stylesheets/social-logos.css" />
-    <link rel="stylesheet" href="./assets/stylesheets/main_nav.css" />
-    <link rel="stylesheet" href="./assets/stylesheets/masthead.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/nav-bar.css" />
     <link rel="stylesheet" href="./assets/stylesheets/responsive.css" />
     <script src="./assets/javascript/index.js"></script>
     <title>Cameron Farina Portfolio</title>
   </head>
   <body>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li class="nav-list"><a href="#">About</a></li>
+              <li class="nav-list"><a href="#">Experience</a></li>
+              <li class="nav-list"><a href="#">Projects</a></li>
+              <li class="nav-list"><a href="#">Resume</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <header class="showcase">
+      <div class="container showcase-inner">
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero odit dolorum maxime mollitia? Ipsa, aspernatur praesentium. Obcaecati hic, unde illo quas officia beatae ab molestiae atque pariatur distinctio corporis!</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </header> -->
+
     <header class="masthead">
       <nav class="home-page-nav-bar">
         <ul>
           <li class="nav-list"><a href="#">About</a></li>
           <li class="nav-list"><a href="#">Experience</a></li>
+          <li class="nav-list"><a href="#">Projects</a></li>
           <li class="nav-list"><a href="#">Resume</a></li>
-          <li class="nav-list"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -130,6 +155,8 @@
             build intuitive and beautiful websites (and applications) on the
             web.
           </p>
+
+          <button class="get-in-touch-btn">Get In Touch</button>
         </div>
       </div>
     </main>
